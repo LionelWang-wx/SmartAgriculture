@@ -9,6 +9,7 @@ public class FrameWork {
     private volatile static FrameWork mInstance = null;
 
     public FrameWork() {
+
     }
 
     //双重校验锁实现单例模式

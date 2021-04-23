@@ -21,13 +21,13 @@ android {
         debug{
             //自定义Gradle常量
             buildConfigField("boolean","LOG_DEG","true")
-            buildConfigField("String","LOG_TAG",'"framework"')
+            buildConfigField("String","LOG_TAG",'"SmartAgriculture"')
             buildConfigField("String","SP_NAME",'"Config"')
         }
         release {
             //自定义Gradle常量
             buildConfigField("boolean","LOG_DEG","false")
-            buildConfigField("String","LOG_TAG",'"framework"')
+            buildConfigField("String","LOG_TAG",'"SmartAgriculture"')
             buildConfigField("String","SP_NAME",'"Config"')
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -37,6 +37,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+
 }
 
 dependencies {

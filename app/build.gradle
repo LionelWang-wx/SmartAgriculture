@@ -14,6 +14,8 @@ android {
         versionName rootProject.ext.android["versionName"]
 
         testInstrumentationRunner rootProject.ext.android["testInstrumentationRunner"]
+        //保证所有的flavor 都属于同一个维度
+        flavorDimensions "default"
     }
 
     buildTypes {
@@ -21,32 +23,59 @@ android {
         debug{
             //自定义Gradle常量
             buildConfigField("boolean","LOG_DEG","true")
-            buildConfigField("String","LOG_TAG",'"SmartAgriculture"')
+            buildConfigField("String","LOG_TAG",'"framework"')
             buildConfigField("String","SP_NAME",'"Config"')
         }
+
         release {
             //自定义Gradle常量
             buildConfigField("boolean","LOG_DEG","false")
-            buildConfigField("String","LOG_TAG",'"SmartAgriculture"')
+            buildConfigField("String","LOG_TAG",'"framework"')
             buildConfigField("String","SP_NAME",'"Config"')
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+//配置产品变种
+    productFlavors {
+        SmartAgriculture_wx {
+            applicationId "com.tfu.smartagriculture"
+            buildConfigField 'String', 'typeName', '"wx"'
+            manifestPlaceholders = [
+                    label: "SmartAgriculture-wx",
+            ]
+        }
+
+        SmartAgriculture_zlb {
+            applicationId "com.tfu.smartagriculture"
+            buildConfigField 'String', 'typeName', '"zlb"'
+            manifestPlaceholders = [
+                    label: "SmartAgriculture-zlb",
+            ]
+        }
+        SmartAgriculture_wjf {
+            applicationId "com.tfu.smartagriculture"
+            buildConfigField 'String', 'typeName', '"wjf"'
+            manifestPlaceholders = [
+                    label: "SmartAgriculture-wjf",
+            ]
+        }
     }
 }
 
 dependencies {
     //引入framework包
     implementation project(path: ':framework')
-
     implementation rootProject.ext.dependencies["appcompat"]
     implementation rootProject.ext.dependencies["material"]
     implementation rootProject.ext.dependencies["constraintlayout"]
     implementation rootProject.ext.dependencies["junit"]
     implementation rootProject.ext.dependencies["ext_Junit"]
     implementation rootProject.ext.dependencies["espresso_core"]
+
 }
