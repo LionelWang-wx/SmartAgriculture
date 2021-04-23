@@ -20,6 +20,7 @@ import androidx.viewpager.widget.ViewPager;
  */
 public class GuideActivity extends BaseUIActivity {
 
+
     private ImageView iv_music_switch;
     private TextView tv_guide_skip;
     private ImageView iv_guide_point_1;
