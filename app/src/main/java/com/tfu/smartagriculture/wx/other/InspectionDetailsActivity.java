@@ -29,6 +29,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 加载webView图标类
  */
 public class InspectionDetailsActivity extends AppCompatActivity implements OnRangeChangedListener {

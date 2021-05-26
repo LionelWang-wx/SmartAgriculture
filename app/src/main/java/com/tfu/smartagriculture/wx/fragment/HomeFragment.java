@@ -33,6 +33,7 @@ import androidx.viewpager.widget.ViewPager;
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 首页
  */
 public class HomeFragment extends Fragment implements ResultCallBack {

@@ -1,5 +1,8 @@
 package com.tfu.smartagriculture.wx.bean;
-
+/**
+ * Created on by WangXi 15/05/2021.
+ * 网络数据解析类
+ */
 public class ContentReceiceLR {
 
     int status;

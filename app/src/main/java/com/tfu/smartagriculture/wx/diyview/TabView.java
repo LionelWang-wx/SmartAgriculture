@@ -11,7 +11,10 @@ import com.tfu.smartagriculture.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
+/**
+ * Created on by WangXi 15/05/2021.
+ * 底部菜单栏
+ */
 public class TabView extends FrameLayout {
     private static final int COLOR_DEFAULT = Color.parseColor("#bfbfbf");
     private static final int COLOR_SELECT = Color.parseColor("#1296db");

@@ -27,6 +27,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 检测
  */
 public class DetectFragment extends Fragment {

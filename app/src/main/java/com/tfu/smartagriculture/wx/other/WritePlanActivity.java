@@ -21,6 +21,10 @@ import java.util.Map;
 import static com.tfu.framework.utils.ToastUtils.showToast;
 import static com.tfu.smartagriculture.wx.fragment.CommunityFragment.resultCallBackCommunity;
 import static com.tfu.smartagriculture.wx.fragment.HomeFragment.resultCallBackHome;
+/**
+ * Created on by WangXi 15/05/2021.
+ * 写方案类
+ */
 
 public class WritePlanActivity extends BaseActivity implements View.OnClickListener {
 

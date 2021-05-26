@@ -17,25 +17,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_userName">
 
-        <TextView
-            android:id="@+id/tv_goBackLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/goback_login_background"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="退出登录"
-            android:textColor="#fff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
 
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
 
         <include
             android:id="@+id/icd_about"
@@ -64,6 +46,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_goBackLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/goback_login_background"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="退出登录"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
 
     </LinearLayout>

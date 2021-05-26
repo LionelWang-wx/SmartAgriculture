@@ -28,6 +28,10 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 普通登录页
+ */
 public class LoginActivityPlus extends BaseActivity implements View.OnClickListener {
     EditText edt_phone;
     EditText edt_code;

@@ -10,6 +10,7 @@ import com.tfu.smartagriculture.wx.bean.PlanData;
 import androidx.appcompat.app.AppCompatActivity;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 方案详情
  */
 public class PlanDetailsActivity extends AppCompatActivity {

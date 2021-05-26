@@ -20,6 +20,7 @@ import java.util.List;
 import androidx.viewpager.widget.ViewPager;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 引导页
  */
 public class GuideActivity extends BaseUIActivity implements View.OnClickListener {

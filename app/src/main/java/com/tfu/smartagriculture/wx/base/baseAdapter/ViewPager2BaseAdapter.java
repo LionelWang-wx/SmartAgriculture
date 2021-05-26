@@ -17,6 +17,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 框架适配器(弃用)
  */
 public class ViewPager2BaseAdapter extends RecyclerView.Adapter<ViewPager2BaseAdapter.ViewPager2ViewHolder> {

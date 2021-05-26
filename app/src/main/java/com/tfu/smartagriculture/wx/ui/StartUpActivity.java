@@ -15,6 +15,10 @@ import com.tfu.smartagriculture.wx.MainActivity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 启动页
+ */
 public class StartUpActivity extends AppCompatActivity {
 
 

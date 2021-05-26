@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 方案数据
  */
 public class PlanData {

@@ -24,6 +24,10 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 普通注册页
+ */
 public class RegisteredActivity extends BaseActivity implements View.OnClickListener {
     EditText edt_phoneNumber;
     EditText edt_confirmPassword;

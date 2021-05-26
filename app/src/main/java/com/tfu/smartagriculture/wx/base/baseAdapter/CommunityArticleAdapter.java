@@ -17,6 +17,10 @@ import java.util.ArrayList;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 社区方案适配器
+ */
 public class CommunityArticleAdapter extends RecyclerView.Adapter<CommunityArticleAdapter.PlanViewHolder> {
     private ArrayList<PlanData.Plan> planList;
     private Activity activity;

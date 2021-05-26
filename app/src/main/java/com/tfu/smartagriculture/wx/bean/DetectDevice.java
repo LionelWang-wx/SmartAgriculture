@@ -1,6 +1,10 @@
 package com.tfu.smartagriculture.wx.bean;
 
-
+/**
+ * Created on by WangXi 15/05/2021.
+ * 网络数据解析类
+ * 实现了Serializable接口，方便Intent传递
+ */
 import java.io.Serializable;
 
 public class DetectDevice implements Serializable {

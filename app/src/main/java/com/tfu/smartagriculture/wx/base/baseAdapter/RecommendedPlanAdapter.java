@@ -17,6 +17,11 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 方案适配器
+ */
+
 public class RecommendedPlanAdapter extends RecyclerView.Adapter<RecommendedPlanAdapter.PlanViewHolder> {
     private List<PlanData.Plan> planList;
     private Activity activity;

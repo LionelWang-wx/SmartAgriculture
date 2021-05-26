@@ -20,6 +20,11 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * Created on by WangXi 15/05/2021.
+ * 检测适配器
+ */
+
 public class DetectAdapter extends RecyclerView.Adapter<DetectAdapter.DetectViewHolder> {
     private ArrayList<DetectDevice> planList;
     private Activity activity;

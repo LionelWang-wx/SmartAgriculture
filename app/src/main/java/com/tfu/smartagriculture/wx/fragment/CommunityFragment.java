@@ -30,6 +30,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import static com.tfu.framework.utils.ToastUtils.showToast;
 
 /**
+ * Created on by WangXi 15/05/2021.
  * 社区
  */
 public class CommunityFragment extends Fragment implements View.OnClickListener, TextWatcher, ResultCallBack {
