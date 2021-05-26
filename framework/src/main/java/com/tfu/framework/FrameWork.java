@@ -2,6 +2,7 @@ package com.tfu.framework;
 
 import android.content.Context;
 
+import com.tfu.framework.bmob.BmobManager;
 import com.tfu.framework.utils.SpUtils;
 
 public class FrameWork {
@@ -26,6 +27,8 @@ public class FrameWork {
 
     public void initFrameWork(Context context) {
         SpUtils.getInstance().initSp(context);
+        //Bmob初始化(Bmob相关功能必须初始化后才能使用)
+        BmobManager.getInstance().initBmob(context);
 
     }
 

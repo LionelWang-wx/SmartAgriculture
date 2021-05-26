@@ -14,7 +14,7 @@ import static com.tfu.framework.entity.Constants.REQUESTCODE;
 import static com.tfu.framework.utils.PermissionUtils.failedPermissions;
 
 
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     private OnPermissionsResult onPermissionsResult;
 
@@ -22,8 +22,18 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+//        fixSystemUI(this);
     }
+
+    /**
+     * 初始化控件
+     */
+    public abstract void initView();
+
+    /**
+     * 初始化数据
+     */
+    public abstract void initData();
 
 
     /**

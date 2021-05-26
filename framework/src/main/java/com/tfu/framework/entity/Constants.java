@@ -15,4 +15,8 @@ public class Constants {
     public final static int REQUESTCODE = 1000;
     //窗口权限请求Code
     public final static int PERMISSION_WINDOW_REQUEST_CODE = 1001;
+
+
+    //保存手机号码
+    public static final String SP_PHONE_NUMBER = "phone_number";
 }
