@@ -24,6 +24,7 @@ import androidx.viewpager.widget.ViewPager;
 /**
  * Created on by WangXi 15/05/2021.
  * 主界面
+ * Github:https://github.com/messi1240938550/SmartAgriculture.git
  */
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {

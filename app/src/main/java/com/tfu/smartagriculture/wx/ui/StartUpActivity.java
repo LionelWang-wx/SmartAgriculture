@@ -18,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 /**
  * Created on by WangXi 15/05/2021.
  * 启动页
+ * Github:https://github.com/messi1240938550/SmartAgriculture.git
  */
 public class StartUpActivity extends AppCompatActivity {
 

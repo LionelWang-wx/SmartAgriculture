@@ -31,6 +31,7 @@ import static com.tfu.framework.utils.ToastUtils.showToast;
 /**
  * Created on by WangXi 15/05/2021.
  * Bmob验证码登录注册页
+ * Github:https://github.com/messi1240938550/SmartAgriculture.git
  */
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
     EditText edt_phoneNumber;

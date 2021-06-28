@@ -27,6 +27,7 @@ import static com.tfu.framework.utils.ToastUtils.showToast;
 /**
  * Created on by WangXi 15/05/2021.
  * 普通注册页
+ * Github:https://github.com/messi1240938550/SmartAgriculture.git
  */
 public class RegisteredActivity extends BaseActivity implements View.OnClickListener {
     EditText edt_phoneNumber;
